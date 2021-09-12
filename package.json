@@ -2,7 +2,7 @@
   "name": "smartbrain_app",
   "version": "0.1.0",
   "private": false,
-  "homepage": " https://mirosh-kavinda.github.io/smartbrain_app/",
+  "homepage": " https://mirosh-kavinda.github.io/smartbrain_app",
   "dependencies": {
     "clarifai": "^2.9.1",
     "gh-pages": "^3.2.3",
