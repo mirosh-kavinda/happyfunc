@@ -79,7 +79,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-    fetch('https://git.heroku.com/cryptic-retreat-04860.git/imageurl', {
+    fetch('https://cryptic-retreat-04860.herokuapp.com/imageurl', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -90,7 +90,7 @@ class App extends Component {
       .then(response => {
         console.log('hi', response)
         if (response) {
-          fetch('https://git.heroku.com/cryptic-retreat-04860.git/image', {
+          fetch('https://cryptic-retreat-04860.herokuapp.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
