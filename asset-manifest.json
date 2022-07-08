@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/happyfunc/static/css/main.f333c70e.chunk.css",
+    "main.js": "/happyfunc/static/js/main.397f97d4.chunk.js",
+    "main.js.map": "/happyfunc/static/js/main.397f97d4.chunk.js.map",
+    "runtime-main.js": "/happyfunc/static/js/runtime-main.e7682b85.js",
+    "runtime-main.js.map": "/happyfunc/static/js/runtime-main.e7682b85.js.map",
+    "static/css/2.6d7c7915.chunk.css": "/happyfunc/static/css/2.6d7c7915.chunk.css",
+    "static/js/2.4aed8bc1.chunk.js": "/happyfunc/static/js/2.4aed8bc1.chunk.js",
+    "static/js/2.4aed8bc1.chunk.js.map": "/happyfunc/static/js/2.4aed8bc1.chunk.js.map",
+    "index.html": "/happyfunc/index.html",
+    "static/css/2.6d7c7915.chunk.css.map": "/happyfunc/static/css/2.6d7c7915.chunk.css.map",
+    "static/css/main.f333c70e.chunk.css.map": "/happyfunc/static/css/main.f333c70e.chunk.css.map",
+    "static/js/2.4aed8bc1.chunk.js.LICENSE.txt": "/happyfunc/static/js/2.4aed8bc1.chunk.js.LICENSE.txt",
+    "static/media/RandomRobo.css": "/happyfunc/static/media/SEGA.47b4bfa9.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7682b85.js",
+    "static/css/2.6d7c7915.chunk.css",
+    "static/js/2.4aed8bc1.chunk.js",
+    "static/css/main.f333c70e.chunk.css",
+    "static/js/main.397f97d4.chunk.js"
+  ]
+}
