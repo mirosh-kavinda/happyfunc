@@ -2,7 +2,7 @@
   "name": "happyfunc",
   "version": "1.0.0",
   "private": false,
-  "homepage": " https://mirosh-kavinda.github.io/happyfunc",
+  "homepage": " https://mirosh-kavinda.github.io",
   "dependencies": {
     "bootstrap": "^5.1.3",
     "clarifai": "^2.9.1",
