@@ -1,5 +1,4 @@
-# SmartBrain - v1
-Final project for ZTM course
+# happy func verson 1.0.0
 
 1. Clone this repo
 2. Run `npm install`
