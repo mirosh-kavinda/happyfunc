@@ -1,12 +1,13 @@
-import ContactForm from '../components/Contact/ContactForm';
-import React from 'react';
 
-function Contact() {
+const Contact = () => {
     return (
-        <div style={{"margin":"80px"   }}>
-            <ContactForm  />
+      <>
+        <div>
+      
         </div>
-    );  
-}
-
-export default Contact;
+      </>
+    );
+  };
+  
+  
+  export default Contact ;

@@ -99,7 +99,7 @@ function tinyFaceDetector() {
             onClick={closeWebcam}
             style={{
               cursor: "pointer",
-              backgroundColor: "green",
+              backgroundColor: "black",
               color: "white",
               padding: "15px",
               fontSize: "25px",
@@ -114,7 +114,7 @@ function tinyFaceDetector() {
             onClick={startVideo}
             style={{
               cursor: "pointer",
-              backgroundColor: "green",
+              backgroundColor: "black",
               color: "white",
               padding: "15px",
               fontSize: "25px",

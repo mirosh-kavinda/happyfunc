@@ -2,9 +2,54 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Courier New", Courier, monospace;
-  background: linear-gradient(89deg, #FF5EDF 0%, #04C8DE 100%); /* w3c */
+  background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%); /* w3c */
 }
 
 button {
   cursor: pointer;
+}
+.contact {
+  justify-content: center;
+  align-items: center;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 20px;
+  z-index: 1000;
+  margin: 4%;
+  border-radius: 40px;
+}
+.landing {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100px;
+  padding: 15px;
+  margin-top: 10%;
+
+  width: fit-content;
+  align-content: center;
+  margin-left: 30%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+h3 {
+  font-family: "Audiowide", cursive;
+  font-weight: 600;
+  color: rgb(66, 63, 63);
+}
+h1 {
+  font-family: cursive;
+  font-weight: 1000;
+  color: rgb(9, 9, 9);
+}
+h4 {
+  font-family: "Audiowide", cursive;
+  font-weight: 40;
+  color: rgb(9, 9, 9);
 }
