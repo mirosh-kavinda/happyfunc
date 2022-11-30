@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import SearchBox from "./SearchBox";
-
 import { saveAs } from "file-saver";
 
 class RoboFace extends Component {
@@ -29,7 +28,7 @@ class RoboFace extends Component {
     return (
       <>
         {!userName.length ? (
-          <div className="tc">
+          <div className="roboface">
             <h3 className="f1">Generate Your Robo Face</h3>
             <SearchBox searchChange={this.onSearchChange} />
             <span>
@@ -39,7 +38,7 @@ class RoboFace extends Component {
             </span>
           </div>
         ) : (
-          <div className="tc">
+          <div className="roboface">
             <h4 className="f1">Hello {userName} This is You !</h4>
             <div className="tc bg-light-green dib br5 pa3 ma2 grow shadow-5">
               <img

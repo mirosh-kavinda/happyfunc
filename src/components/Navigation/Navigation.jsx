@@ -1,18 +1,18 @@
 import React from "react";
-import { Navbar, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Navbar, Container, Nav } from "react-bootstrap";
+
 
 const Navigation = () => {
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand to="/">HappyFunc</Navbar.Brand>
+        <Navbar.Brand href="/">HappyFunc</Navbar.Brand>
         <Nav className="me-auto">
-          <Link to="/face_detect">ImotionDetect</Link>
-          <Link to="/roboface">AvatarGen</Link>
+          <Nav.Link href="/face_detect">ImotionDetect</Nav.Link>
+          <Nav.Link href="/roboface">RoboFace</Nav.Link>
         </Nav>
         <Nav style={{ display: "flex", justifyContent: "flex-end" }}>
-          <Link to="/contact">Contact</Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

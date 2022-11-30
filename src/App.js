@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home.jsx";
-import { RoboFace, Navbar, FaceDetect, Contact } from "./components/";
+import { Navbar, FaceDetect, Contact,RoboFace } from "./components/";
 import ParticlesBg from "particles-bg";
 
 class App extends Component {
@@ -13,15 +13,14 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <ParticlesBg num={20} type="polygon" bg={true} />
-        <Router>
-          <Routes>
-            <Route exact path="/" element={<Home />} />
+        <ParticlesBg  className="particles"num={20} type="polygon" bg={true} />
+
+        <Routes>
+          <Route exact path="/" element={<Home />} />
             <Route path="/face_detect" element={<FaceDetect />} />
-            <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
             <Route path="/roboface" element={<RoboFace />} />
-          </Routes>
-        </Router>
+        </Routes>
       </div>
     );
   }

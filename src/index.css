@@ -32,10 +32,13 @@ button {
   border-radius: 100px;
   padding: 15px;
   margin-top: 10%;
-
   width: fit-content;
   align-content: center;
-  margin-left: 30%;
+  margin-left: 22%;
+}
+.roboface {
+  align-content: center;
+  margin-left: 37%;
 }
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 h3 {
@@ -52,4 +55,8 @@ h4 {
   font-family: "Audiowide", cursive;
   font-weight: 40;
   color: rgb(9, 9, 9);
+}
+
+.particles {
+  z-index: -9999;
 }
