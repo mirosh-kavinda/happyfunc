@@ -17,9 +17,9 @@ class App extends Component {
         <Router>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/face_detect" element={<FaceDetect />} />
-            <Route exact path="/contact" element={<Contact />} />
-            <Route exact path="/roboface" element={<RoboFace />} />
+            <Route path="/face_detect" element={<FaceDetect />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/roboface" element={<RoboFace />} />
           </Routes>
         </Router>
       </div>
