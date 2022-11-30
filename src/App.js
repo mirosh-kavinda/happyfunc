@@ -4,7 +4,6 @@ import Home from "./pages/Home.jsx";
 import { RoboFace, Navbar, FaceDetect, Contact } from "./components/";
 import ParticlesBg from "particles-bg";
 
-
 class App extends Component {
   constructor() {
     super();
